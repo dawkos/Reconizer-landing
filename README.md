@@ -1,1 +1,1 @@
-# Reconizer-landing
+# Reconizer landing page www.reconizer.pl
