@@ -1,0 +1,322 @@
+:root {
+    --paragraph: #9FB1C9;
+    --title: #333333;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: var(--title);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+p {
+    color: var(--paragraph);
+    line-height: 1.75;
+}
+
+.hero {
+    background-image: url(img/bg.png);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero__text p {
+    color: white;
+}
+
+
+.btn-plan{
+    background: linear-gradient(45deg, rgba(36,184,254,1) 35%, rgba(71,138,253,1) 100%);
+    border: none;
+    padding: 14px 25px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: 0.4s;
+    margin-top: 15px;
+
+}
+
+.btn-plan:hover {
+    background: linear-gradient(180deg, rgba(36,184,254,1) 35%, rgba(71,138,253,1) 100%);
+}
+
+.burger-menu {
+    width: 30px;
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #546478;
+    padding: 0px 40px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav__container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    margin: 0px 20px;
+    padding: 40px 0px;
+    transition: all 0.4s;
+
+}
+
+li:hover {
+    border-bottom: 2px solid #24B8FE;
+
+}
+
+.hero__nav-items {
+    margin-left: auto;
+}
+
+.hero_nav-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.hero__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.hero__text {
+    text-align: center;
+    padding: 15px;
+}
+
+.hero__text p {
+    margin: 20px 0px;
+}
+
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.about h3 {
+    margin-top: 25px;
+}
+
+.about__text {
+    padding: 15px;
+    text-align: center;
+}
+
+.about__text-line {
+    margin-top: 40px;
+}
+
+.about__text-line--second {
+    margin-top: 40px;
+}
+
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.services__text {
+    padding: 15px;
+    text-align: center;
+}
+
+.services h3 {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.services__card {
+    flex: 33%;
+}
+
+.services__card h4 {
+    padding: 20px 0px;
+}
+
+.services__card-content {
+    padding: 15px;
+}
+
+.services__card img {
+    height: 150px;
+}
+
+.services__card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.contact {
+    margin: 0 auto;
+    padding: 0;
+    background: #0D2035;
+}
+
+.contact h3 {
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.contact__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+}
+
+.form__side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form__side-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.form__side-block p {
+    color: white;
+
+}
+
+.form__fields, .form__side{
+    flex: 0.5;
+    padding: 0px 15px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 20px;
+    background: #2C4057;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-family: 'Open Sans';
+}
+
+.btn-send{
+    background: linear-gradient(45deg, #69C900 35%, #76D909 100%);
+    border: none;
+    padding: 14px 75px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: 0.4s;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-send:hover {
+    background: linear-gradient(180deg, #69C900 35%, #76D909 100%);
+
+}
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+
+
+@media (max-width: 788px) {
+    .services__card {
+        flex: 1;
+    }
+    .services__card-container {
+        flex-direction: column;
+    }
+    .form__fields {
+        flex: 1;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+    .form__side-block {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 474px) {
+    .burger-menu {
+        display: block;
+    }
+    .hero_nav-list {
+        display: none;
+    }
+    .logo {
+        padding: 20px;
+    }
+}
+
+.mobile-nav {
+    background-color: #0D2035;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+}
+
+.mobile-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
