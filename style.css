@@ -39,10 +39,12 @@ p {
 
 #warning-msg {
     color: red;
+    text-align: center;
 }
 
 #success-msg {
     color: #69C900;
+    text-align: center;
 }
 
 .hero__text p {
@@ -264,6 +266,10 @@ input, textarea {
     padding: 15px;
     font-family: 'Open Sans';
 }
+
+input:focus, textarea:focus {
+    outline: 1px solid grey;
+  }
 
 .btn-send{
     background: linear-gradient(45deg, #69C900 35%, #76D909 100%);
