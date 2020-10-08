@@ -30,7 +30,7 @@ p {
 }
 
 .hero {
-    background-image: url(img/bg.png);
+    background-image: url(img/bg.jpg);
     height: 80vh;
     background-size: cover;
     background-position: center;
