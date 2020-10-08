@@ -30,7 +30,7 @@ p {
 }
 
 .hero {
-    background-image: url(img/bg.jpg);
+    background-image: url(img/bg.png);
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -269,7 +269,6 @@ input, textarea {
     background: #2C4057;
     border: none;
     color: white;
-    border-radius: 4px;
     padding: 15px;
     font-family: 'Open Sans';
 }
@@ -323,6 +322,10 @@ footer {
     .form {
         display: flex;
         flex-direction: column;
+        height: auto;
+    }
+    .form__side {
+        flex: 1;
     }
    
 }
