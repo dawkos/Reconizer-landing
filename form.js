@@ -26,13 +26,13 @@ fetch('https://api.hr.staging.penhr.pl/api/contact_form_messages', {
   .then(checkStatus)
   .then(parseJSON)
   .then(function(data) {
-    document.getElementById("success-msg").innerHTML = "WiadomoĹÄ zostaĹa wysĹana. Postaramy siÄ odpowiedzieÄ jak najszybciej.";
+    document.getElementById("success-msg").innerHTML = "Wiadomość została wysłana, postaramy się odpowiedzieć jak najszybciej.";
      let warning = document.getElementById("warning-msg");
      warning.style.display = "none";
     myForm.style.display = "none";
   }).catch(function(response) {
     response.json().then((error) => {
-      document.getElementById("warning-msg").innerHTML = "WiadomoĹÄ nie zostaĹa wysĹana, sprawdĹş dane i sprĂłbuj ponownie.";
+      document.getElementById("warning-msg").innerHTML = "Wiadomość nie została wysłana, sprawdź dane i spróbuj ponownie.";
       for(errorKey in error) {
         myForm.elements[errorKey].classList.add('errorc');
         }
