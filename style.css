@@ -108,8 +108,14 @@ li {
     list-style: none;
     margin: 0px 20px;
     padding: 40px 0px;
+    border-bottom: 2px solid transparent;
     transition: all 0.2s;
 
+}
+
+li a {
+    text-decoration: none;
+    color: white;
 }
 
 li:hover {
