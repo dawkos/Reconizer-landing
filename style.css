@@ -64,7 +64,6 @@ p {
     border-radius: 4px;
     transition: 0.4s;
     margin-top: 15px;
-
 }
 
 .btn-plan:hover {
@@ -110,7 +109,6 @@ li {
     padding: 40px 0px;
     border-bottom: 2px solid transparent;
     transition: all 0.2s;
-
 }
 
 li a {
@@ -240,7 +238,6 @@ li:hover {
 
 .form__side {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -249,13 +246,12 @@ li:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 50px;
+    margin-top: 15px;
 
 }
 
 .form__side-block p {
     color: white;
-
 }
 
 .form__fields, .form__side{
@@ -327,7 +323,6 @@ footer {
     .form__side {
         flex: 1;
     }
-   
 }
 
 @media (max-width: 474px) {
