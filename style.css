@@ -37,10 +37,21 @@ p {
     color: white;
 }
 
+#warning-msg {
+    color: red;
+}
+
+#success-msg {
+    color: #69C900;
+}
+
 .hero__text p {
     color: white;
 }
 
+.errorc {
+    border: 1px solid red;
+}
 
 .btn-plan{
     background: linear-gradient(45deg, rgba(36,184,254,1) 35%, rgba(71,138,253,1) 100%);
