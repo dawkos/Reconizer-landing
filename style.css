@@ -25,6 +25,10 @@ p {
     line-height: 1.75;
 }
 
+.hero__text h1::first-letter {
+    color: red;
+}
+
 .hero {
     background-image: url(img/bg.png);
     height: 80vh;
