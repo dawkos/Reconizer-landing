@@ -296,9 +296,7 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    .form__side-block {
-        margin-bottom: 40px;
-    }
+   
 }
 
 @media (max-width: 474px) {
