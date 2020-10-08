@@ -320,8 +320,8 @@ footer {
         flex-direction: column;
         height: auto;
     }
-    .form__side {
-        flex: 1;
+    .form__side-block {
+        padding-bottom: 20px;
     }
 }
 
