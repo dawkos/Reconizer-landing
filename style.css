@@ -269,6 +269,7 @@ input, textarea {
     background: #2C4057;
     border: none;
     color: white;
+    border-radius: 4px;
     padding: 15px;
     font-family: 'Open Sans';
 }
