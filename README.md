@@ -1,1 +1,1 @@
-# Reconizer landing page www.reconizer.pl
+# Reconizer landing page https://dawkos.github.io/Reconizer-landing/
